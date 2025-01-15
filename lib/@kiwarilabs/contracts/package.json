@@ -1,0 +1,25 @@
+{
+  "private": false,
+  "name": "@kiwarilabs/contracts",
+  "version": "1.0.2-rc1",
+  "license": "BSL-1.1",
+  "author": "kiwari-labs <kiwarilabs@protonmail.com> (https://github.com/Kiwari-Labs)",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/Kiwari-Labs/kiwari-labs-contracts"
+  },
+  "files": [
+    "**/*.sol"
+  ],
+  "scripts": {
+    "prepare": "bash ../scripts/prepare.sh"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "smart contracts",
+    "solidity"
+  ]
+}
