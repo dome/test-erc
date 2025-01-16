@@ -11,9 +11,13 @@ contract EPOINT1HR is ERC20EXPBase {
 
     function mint(address to, uint256 value) public {
         _mint(to, value);
+        emit Mint(to, value);
     }
 
     function burn(address from, uint256 value) public {
         _burn(from, value);
+        emit Burn(from, value);
     }
+    event Mint(address to, uint256 value);
+    event Burn(address from, uint256 value);
 }
